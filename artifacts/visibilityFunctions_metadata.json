@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "pay",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pub",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Day7Visibility.sol": "visibilityFunctions"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Day7Visibility.sol": {
+			"keccak256": "0x2e23db6a6097655e944120043e9cf7e9705ecf185a439fdacf0568cf21098571",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd6f26e0ab026faa7f5cd7c3cbb897fb5cc9a40078a2c224d92d941b991cbe2c",
+				"dweb:/ipfs/QmVFpEKG2GNkL75JDmW3HgSydwJ26Lirmrg9eUU9ARY99A"
+			]
+		}
+	},
+	"version": 1
+}
